@@ -7,7 +7,7 @@ This project investigates the persistent gender wage gap in the U.S., with a spe
 | File/Folder              | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
 | `RegressionAnalysis.py`  | Wage regression analysis using IPUMS Census data                            |
-| `ShinyPlotting.py`       | Interactive Shiny app using Pew MSA earnings data                          |
+| `ShinyPlotting.py`       | Interactive Shiny app using Pew MSA earnings data                           |
 | `RedditTextAnalysis.py`  | Sentiment analysis of Reddit discourse on gender                            |
 | `Images/`                | Static plots and visualizations                                             |
 | `Data/`                  | Processed datasets from IPUMS, Pew, and Reddit                              |
