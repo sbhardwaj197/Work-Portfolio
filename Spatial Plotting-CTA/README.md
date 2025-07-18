@@ -1,18 +1,49 @@
-# Data Skills 2 Homework 4
+# Spatial Plotting Homework: Visualizing Public Health & Transit in Chicago
 
-### Due Monday November 14th before midnight
+This project was developed as part of **Data Skills 2** at the University of Chicago. It explores spatial relationships between public health metrics and Chicago's CTA train lines using geospatial data and Python.
 
-For your final assignment you will be creating a choropleth using geopandas and Chicago data, inside an interactive Shiny app.  To do this you will use the City of Chicago [Data Portal](https://data.cityofchicago.org/).
+## Project Summary
 
-  1. Download the [CTA "L" shapefile](https://data.cityofchicago.org/Transportation/CTA-L-Rail-Lines-Shapefile/53r7-y88m).
-  2. Download any other one [shapefile](https://data.cityofchicago.org/browse?tags=shapefiles) of some Chicago division (wards, neighborhoods, etc).  Keep this shapefile relatively small, e.g. police districts, not building footprints.
-  3. Download two [datasets](https://data.cityofchicago.org/browse?limitTo=datasets) that can be plotted on your shapefile.  For example, if you choose wards at step two, your data from step three should either be at the ward level, or individual points that could be plotted independent of divisions.
-  
-Create a single plot of the shapefile from step 2 in your user interface, with controls that allow you to do the following:
+The goal was to build an interactive choropleth map using [Shiny for Python](https://shiny.posit.co/py/), allowing users to toggle CTA "L" train lines and switch between two public health datasets. All data was sourced from the [City of Chicago Data Portal](https://data.cityofchicago.org/).
 
-  - Toggle the "L" lines shapefile from step 1 off and on.
-  - Switch between the two datasets from step 3 to change how the choropleth is colored.
-  
-Do some basic efforts to make the display look nice - you can clean up your figure using geopandas/pandas/matplotlib/seaborn, and experiment with Shiny elements like tags, rows, and columns.
+![App Screenshot](web_page.png)
 
-Note that we will not be deploying your app to the web on shinyapps.io for this assignment.  In my experimenting with the interface I encountered frequent errors that made this difficult to do, which I attribute to the pre-release nature of Shiny in Python.  If you wish to explore the option yourself, the directions are [here](https://docs.rstudio.com/shinyapps.io/getting-started.html#creating-a-shinyapps.io-account).
+## Repository Contents
+
+| File/Folder | Description |
+|-------------|-------------|
+| `app_hw4.py` | Main Shiny app script |
+| `hw4.ipynb` | Jupyter notebook used for development and data prep |
+| `Comm_20Areas__1/` | Community areas shapefile and components |
+| `Chicago_COVID-19_Community_Vulnerability_Index_CCVI_.csv` | COVID-19 vulnerability data |
+| `Public_Health_Statistics__2006_2010__Historical.csv` | Public health statistics |
+| `web_page.png` | Screenshot of the app UI |
+| `README.md` | This file |
+
+> All shapefile components (e.g., `.shp`, `.shx`, `.dbf`, etc.) are included for full spatial analysis compatibility.
+
+## Features
+
+- **Interactive choropleth**: Switch between two datasets to color-code community areas
+- **Transit overlay**: Toggle CTA "L" lines for transit access context
+- **Clean UI** using Shiny’s layout controls and formatted plots
+
+## Tools Used
+
+- Python
+- GeoPandas
+- Pandas
+- Matplotlib
+- Shiny (Python interface)
+
+## Learning Goals
+
+- Load and clean shapefiles and public datasets
+- Merge spatial and tabular data
+- Visualize public health data geographically
+- Create a responsive interactive map UI
+
+---
+
+**Author**: Saloni Bhardwaj  
+ [Contact](mailto:bhardwajsaloni97@gmail.com) 
