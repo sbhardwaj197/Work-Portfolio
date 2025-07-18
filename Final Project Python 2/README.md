@@ -2,15 +2,17 @@
 
 This project investigates the persistent gender wage gap in the U.S., with a specific focus on whether an occupation’s gender composition influences its median wages. The work was completed as the final project for the graduate-level course **PPHA 30538: Data and Programming for Public Policy II** at the University of Chicago.
 
-## Repository Structure
+## Repository Contents
 
-.
-├── RegressionAnalysis.py # Wage regression analysis using IPUMS Census data
-├── ShinyPlotting.py # Interactive Shiny app using Pew MSA earnings data
-├── RedditTextAnalysis.py # Sentiment analysis of Reddit discourse on gender
-├── Images/ # Static plots and visualizations
-├── Data/ # Processed datasets (IPUMS, Pew, Reddit)
-└── README.md # You're here!
+| File/Folder              | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| `RegressionAnalysis.py`  | Wage regression analysis using IPUMS Census data                            |
+| `ShinyPlotting.py`       | Interactive Shiny app using Pew MSA earnings data                          |
+| `RedditTextAnalysis.py`  | Sentiment analysis of Reddit discourse on gender                            |
+| `Images/`                | Static plots and visualizations                                             |
+| `Data/`                  | Processed datasets from IPUMS, Pew, and Reddit                              |
+| `README.md`              | This file : overview, documentation, and summary of the project             |
+
 
 ## Project Overview
 
