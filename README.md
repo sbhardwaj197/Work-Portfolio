@@ -4,7 +4,7 @@ This repository showcases select projects from my graduate-level coursework in p
 
 ## Repository Contents
 
-### `Final Project Python/`
+### `Final Project Python`
 This final group project analyzes whether the proportion of women in an occupation influences its median wage using U.S. Census panel data. The project also includes:
 
 - A regression analysis using IPUMS microdata (1950–1990)
@@ -21,7 +21,7 @@ Tools and techniques:
 
  *A detailed README is included within this folder.*
 
-### `spatial-plotting-cta/`
+### `spatial-plotting-cta`
 This mini-project explores spatial relationships between transit infrastructure and public health indicators in Chicago. Using shapefiles for community areas and CTA train lines from the City of Chicago Data Portal, the project creates an interactive choropleth map that allows users to:
 
 - Toggle transit overlays
