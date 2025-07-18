@@ -25,8 +25,6 @@ Key skills:
 
 These projects were completed as part of my Master's in Public Policy at the University of Chicago, where I focused on data-driven problem-solving for public systems.
 
-> All datasets used in this repository are either publicly available or anonymized for educational purposes.
-
 ## About Me
 
 I'm **Saloni Bhardwaj**, a Data Strategist with a background in computer science and public policy. I build data systems that drive strategic decision-making in education and public service.
